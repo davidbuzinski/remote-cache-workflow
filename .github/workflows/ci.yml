@@ -19,5 +19,3 @@ jobs:
           key: ${{ runner.os }}-buildtool-cache
       - name: Run build
         uses: matlab-actions/run-build@v1
-        with:
-          tasks: mytask
